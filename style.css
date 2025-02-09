@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #FFDEE9, #B5FFFC); /* Degradê rosa claro para verde água */
+}
+
+.container {
+    text-align: center;
+    background: linear-gradient(to bottom, #E6E6FA, #F8F8FF); /* Degradê lilás quase branco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333333; /* Cinza bem escuro */
+}
+
+p {
+    color: #333333; /* Cinza bem escuro */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3F51B5; /* Bordas azuis */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #D3D3D3, #A9A9A9); /* Degradê cinza claro */
+    color: #333333; /* Cinza bem escuro */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #FF5722, #FF7043); /* Degradê de laranja escuro a laranja claro */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #E64A19, #FF5722); /* Degradê de laranja mais escuro */
+}
+
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333333; /* Cinza bem escuro */
+}
+
+#attempts {
+    margin-top: 5px;
+    font-style: italic;
+    color: #333333; /* Cinza bem escuro */
+}
